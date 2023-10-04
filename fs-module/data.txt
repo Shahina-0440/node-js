@@ -1,0 +1,2 @@
+Hello GE
+This is example for reading file using fs module
