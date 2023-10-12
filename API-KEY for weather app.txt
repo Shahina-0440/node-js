@@ -5,3 +5,5 @@ https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=9fc7c4
 
 
 https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=9fc7c4e3076998d8edc44474770ddcef
+
+https://api.openweathermap.org/data/2.5/weather?q=Bengaluru,IN&units=metric&appid=9fc7c4e3076998d8edc44474770ddcef

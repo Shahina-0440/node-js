@@ -139,6 +139,14 @@ html{
     font-size:6rem;
     animation: fas-anime 3s linear infinite alternate;
 }
+#weather_cond .fa-cloud-rain{
+    font-size:6rem;
+    animation: fas-anime 3s linear infinite alternate;
+}
+#weather_cond .fa-cloud{
+    font-size:6rem;
+    animation: fas-anime 3s linear infinite alternate;
+}
 @keyframes fas-anime{
     from{
         transform: scale(1);
@@ -181,6 +189,8 @@ body >span{
     </style>
     <title>Weather App</title>
 </head>
+
+
 <body>
     <div class="box">
         <div class="wave -one"></div>
@@ -213,10 +223,10 @@ body >span{
             "<i class='fa-solid fa-cloud' style='color: #f1f2f6;'></i>"
         }else if (tempStatus=="Rainy"){
             weather_cond.innerHTML=
-            "<i class='fas fa-cloud-rain' style='color: #a4b0be;></i>'"
+            "<i class='fas fa-cloud-rain' style='color: #a4b0be;'></i>"
         }else{
             weather_cond.innerHTML=
-            "<i class='fas fa-cloud' style='color: #44c3de;></i>'"
+            "<i class='fas fa-cloud' style='color: #44c3de;'></i>"
         }
         const getCurrentDay=() =>{
             var weekday=new Array(7); //creating object for Array()
