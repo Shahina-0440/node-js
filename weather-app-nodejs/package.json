@@ -9,6 +9,8 @@
   "author": "\"shahina\"",
   "license": "ISC",
   "dependencies": {
-    "requests": "^0.3.0"
+    "querystring": "^0.2.1",
+    "requests": "^0.3.0",
+    "url": "^0.11.3"
   }
 }
