@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
 //API URL:localhost:8000/all
 app.get("/all",(req,res)=>{
     const empData=getEmpData()
-    res.send(empData)
+    res.send(empData)   
 })
 
 //API URL:localhost:8000/add
@@ -32,6 +32,7 @@ app.post("/add",(req,res)=>{
     saveEmpData(employees)
     res.send("inserted data successfully...")
 });
+
 let saveEmpData=(employees)=>{
     fs.writeFileSync("emp.json",JSON.stringify(employees))
 }
