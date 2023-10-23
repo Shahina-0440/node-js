@@ -26,7 +26,7 @@ const Emp=new mongoose.model("Emp",empSchema)
 //read document
 const getdata=async ()=>{
     const result=await Emp.find();
-    const result2=await Emp.find({status:true}).select({_id:0,name:1})
+    const result2=await Emp.find({status:true}).select({_id:0,name:1}).count()
     console.log(result)
     console.log(result2)
 }
